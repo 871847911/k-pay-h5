@@ -1,0 +1,209 @@
+
+.text_word{
+	font-size: 0.2rem;
+	color: #f66;
+}
+.weui-toast{
+	font-size: 10px
+}
+.outermost{
+	width: 100%;
+	/*height: 100%;*/
+	min-height: 100vh;
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+a:hover, a:active , a:link{
+	color: inherit;
+}
+ul , li , dl , dt , dd , ol{
+	list-style: none;
+}
+
+/*message页面tab切换动画*/
+/*.message .vux-tab-wrap{*/
+	/*padding-top: 1.48rem;*/
+/*}*/
+.message .vux-tab-container{
+	padding: 0 1.12rem;
+	background: #fff;
+}
+/*.message .vux-tab{*/
+	/*height: 1.48rem;*/
+/*}*/
+.message .vux-tab-item{
+	background: 0;
+}
+/*.message .vux-tab-selected{*/
+	/*border-bottom: 0.04rem solid rgba(51,51,51,1);*/
+/*}*/
+
+
+/*question页面tab切换动画*/
+.question .vux-tab-wrap{
+	padding-top: 1.48rem;
+}
+.question .vux-tab-container{
+	height: 1.48rem;
+}
+.question .vux-tab{
+	height: 1.48rem;
+}
+.question .vux-tab-selected{
+	border-bottom: 0.04rem solid rgba(51,51,51,1);
+}
+
+.search_page .vux-tab-container{
+	padding: 0 1.77rem 0;
+	background: #fff;
+}
+
+
+button{
+	border: 0;
+	color: #fff;
+	border-radius: .04rem;
+	font-size: .32rem;
+}
+button:focus{
+	outline: -webkit-focus-ring-color auto 0;
+}
+input:focus{
+	outline: -webkit-focus-ring-color auto 0;
+}
+.course_classify .vux-popup-dialog{
+	background: #fff;
+	margin-top: .96rem;
+	display: flex;
+	z-index: 555;
+}
+
+div, p{
+	word-break: break-all;
+	/*! autoprefixer: off */
+	-webkit-box-orient: vertical;
+	/* autoprefixer: on */
+}
+.vux-tab-bar-inner{
+	border-radius: .6rem;
+}
+/* questionTitle页面 Group标签去除默认样式 */
+.group .vux-no-group-title{
+	margin:0;
+}
+.group .weui-cells::before{
+	border:0;
+}
+.group .weui-cells::after{
+	border:0;
+	padding:0;
+}
+.group .weui-cell {
+	padding: 0;
+}
+
+/* 设置类为 group_vux_input xinput外层容器的高度*/
+.group_vux_input .weui-input{
+	font-size:0.3rem;
+	padding:0;
+	height:0.42rem;
+	width:3rem;
+}
+
+.group_vux_input .weui-input::placeholder{
+	color:#D0D0D0;
+}
+.group_vux_input .weui-cell__bd{
+	height: 0.42rem;
+	line-height: 0.42rem;
+}
+.group_vux_input .weui-cell__ft{
+	line-height:0.42rem;
+}
+.group_vux_input .weui-cell__ft{
+	display: none;
+}
+
+
+/* 设置类为 group_vux_textarea placehoder默认颜色和字体大小 */
+.group_vux_textarea .weui-textarea{
+	min-height:2.5rem;
+	max-height: 5rem;
+	color: #333333;
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+.group_vux_textarea .weui-textarea::placeholder{
+	color:#D0D0D0;
+	font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.vux-swiper-desc{
+	display: none;
+}
+
+/* questionTitle页面 textarea */
+.textarea .weui-textarea,
+.cont_top .weui-textarea{
+	font-size: 0.28rem;
+	color:#333333;
+	line-height:0.52rem;
+}
+.textarea .weui-cell{
+	padding:0.32rem 0;
+}
+.textarea .weui-textarea{
+	min-height:2rem;
+}
+.cont_top .weui-textarea{
+	min-height:4rem;
+}
+.switch .vux-x-switch.weui-cell_switch{
+	padding:0;
+}
+
+.index .vux-swiper{
+	height: 2.86rem;
+	width: 7.5rem;
+}
+
+
+
+/* 地址三级联动样式修改 */
+.address_info .vux-popup-picker-placeholder{
+	color:#D0D0D0;
+}
+.address_info .weui-cell{
+	padding:0;
+}
+.address_info .vux-cell-value{
+	color:#333333;
+}
+.address_info .weui-cell_access .weui-cell__ft:after{
+	display: none;
+}
+
+.vux-popup-dialog, .vux-popup-bottom{
+	font-size: .3rem;
+}
+.weui-cell_access .weui-cell__ft:after{
+	border-style: none;
+}
+
+/* Vux check-icon 单选框的选中的全局颜色 */
+.group_check_icon .weui-icon-circle,
+.group_check_icon .weui-icon-success{
+	font-size: 0.32rem;
+}
+
+.group_check_icon .vux-check-icon > .weui-icon-success:before,
+.group_check_icon .vux-check-icon > .weui-icon-success-circle:before{
+	color:#6CDDC7;
+}
+
+
